@@ -20,6 +20,6 @@ def index():
 def company(name):
     return template("company.tpl",data=data,name=name)
 
-run(host="localhost", port=8080)
+run(host="0.0.0.0", port=os.environ.get('PORT'))
 
 #run(host="localhost", port=8080)
