@@ -1,0 +1,35 @@
+div{
+		border: 2px dotted;
+	    border-radius: 5px;
+	    padding: 5px;
+	    display: block;
+	}
+table{
+		border: 2px dotted;
+	    border-radius: 5px;
+	    padding: 5px;
+	    display: block;
+	}
+
+th,td{
+		/*border: 2px dotted;
+	    border-radius: 20px;
+	    padding: 20px;*/
+	    float:left;
+	    width: 225px;
+	    text-align: center;
+	   
+	}
+.wrapper{display: grid;
+}
+.image{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;}
+	}
+h1,a{text-align: center;}
+body {
+	background-color: grey;
+	width: 1000px;
+	margin-left: 250px;
+	text-align: center;
+	background-color: gray;
+	}
+	img{height:55px;width:55px;}
